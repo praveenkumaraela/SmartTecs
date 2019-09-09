@@ -1,43 +1,27 @@
-# SmartTecs
+# Smartecs
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-flutter doctor
+## Development server
 
-flutter packages pub global activate webdev
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-flutter packages upgrade
+## Code scaffolding
 
-1) Install Flutter
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-2) Download dart.
+## Build
 
-https://www.thepolyglotdeveloper.com/2019/04/building-simple-web-application-dart/
-a) set env path to bin.
-b) dart --version
-Dart VM version: 2.3.0-dev.0.5.flutter-a1668566e5 (Tue Apr 30 20:35:41 2019 +0200) on "windows_x64"
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-c) pub global activate webdev
+## Running unit tests
 
-d) webdev
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-e) pub global activate stagehand
+## Running end-to-end tests
 
-f) stagehand
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-g) stagehand web-simple
+## Further help
 
-f) pub get
-
-g) webdev serve
-
-
- Project-2
- -----------------
-C:\Praveen\Projects\Flutter\angular-master
-λ pub global activate stagehand
-
-pub get
-
-pub global activate webdev
-
-webdev serve
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
